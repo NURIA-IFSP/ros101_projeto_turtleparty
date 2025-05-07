@@ -54,3 +54,15 @@ bash "$HOME/start-apps.sh"
 
 # Mantém container rodando
 tail -f /dev/null
+
+# Inicia o servidor VNC
+tvncserver :1 -geometry 1920x1080 -depth 24
+
+# Exporta a variável DISPLAY
+export DISPLAY=:1
+
+# Inicia o ambiente XFCE
+startxfce4 &
+
+# Mantém o script em execução para evitar que o container finalize
+exec "$@"
