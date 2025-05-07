@@ -51,3 +51,6 @@ qtcreator-*
 CATKIN_IGNORE
 simulations/roomba_ros_ic
 simulations/roomba_ros_ic
+
+# Arquivos gerados no container docker
+core.*
