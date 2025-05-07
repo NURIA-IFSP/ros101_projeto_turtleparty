@@ -1,0 +1,11 @@
+<launch>
+    
+    <!--  Crie aqui um arquivo party.launch que:
+
+    - Inicie o turtlesim_node;
+
+    - Inicialize a tartaruga guia (por padrão, turtle1);
+
+    - Execute o script guide_controller.py. -->
+    
+</launch>
